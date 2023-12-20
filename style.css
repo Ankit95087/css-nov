@@ -1,0 +1,84 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Fuggles&family=Karla:ital,wght@0,200;0,300;1,200;1,300&family=Merienda:wght@300;400;500;600;700;800;900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+  *{  margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Fuggles', cursive;
+font-family: 'Karla', sans-serif;
+font-family: 'Merienda', cursive;
+font-family: 'Poppins', sans-serif;
+}
+
+section{
+      background-color:rgb(230, 155, 218);  
+    width: 100%;
+    padding: 5% 0;
+}
+.parent-box{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.box{
+    width: 22%;
+    border: 2px solid #000; 
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 2%;
+    color: #fff;
+
+   
+}
+.fb-box{
+    background-color: #3b5998;
+    color: #fff;
+}
+.ins-box{
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); ;
+ 
+}
+.twt-box{
+    background-color: #1c96e8;
+ 
+}
+.you-box{
+    background-color: #f70000;
+}
+
+.box .logo{
+    display: flex;
+    justify-content: center;
+}
+
+.logo i{
+    font-size: 60px;
+    margin-bottom: 5%;
+}
+
+.box h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-bottom: 5%;
+}
+
+.box p{
+    text-align: justify;
+    margin-bottom: 10%;
+    font-size: 14px;
+}
+
+.box button{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 40px;
+    background-color: #fff;
+    color: #000;
+    text-transform: uppercase;
+    border-radius: 20px;
+}
+
